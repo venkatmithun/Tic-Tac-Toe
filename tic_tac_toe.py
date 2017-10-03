@@ -11,7 +11,7 @@ if player!='X' and player!='O':
     print("Can't you read bro?")
 
 else:
-    While True:
+    while True:
         x = input("Please type in position by selecting numbers in range(1-9) row wise: ")
         if x.isdigit():
            x=int(x)
